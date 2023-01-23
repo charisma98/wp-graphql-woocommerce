@@ -237,6 +237,7 @@ class OrderMutationsTest extends \Codeception\TestCase\WPTestCase {
 			),
 			'paymentMethod'      => 'bacs',
 			'paymentMethodTitle' => 'Direct Bank Transfer',
+			'createdVia'         => 'Headless Checkout',
 			'billing'            => array(
 				'firstName' => 'May',
 				'lastName'  => 'Parker',
@@ -480,6 +481,7 @@ class OrderMutationsTest extends \Codeception\TestCase\WPTestCase {
 			),
 			'paymentMethod'      => 'bacs',
 			'paymentMethodTitle' => 'Direct Bank Transfer',
+			'createdVia'         => 'Headless Checkout',
 			'billing'            => array(
 				'firstName' => 'May',
 				'lastName'  => 'Parker',
@@ -803,6 +805,7 @@ class OrderMutationsTest extends \Codeception\TestCase\WPTestCase {
 			),
 			'paymentMethod'      => 'bacs',
 			'paymentMethodTitle' => 'Direct Bank Transfer',
+			'createdVia'         => 'Headless Checkout',
 			'billing'            => array(
 				'firstName' => 'May',
 				'lastName'  => 'Parker',
@@ -954,6 +957,7 @@ class OrderMutationsTest extends \Codeception\TestCase\WPTestCase {
 			),
 			'paymentMethod'      => 'bacs',
 			'paymentMethodTitle' => 'Direct Bank Transfer',
+			'createdVia'         => 'Headless Checkout',
 			'billing'            => array(
 				'firstName' => 'May',
 				'lastName'  => 'Parker',
