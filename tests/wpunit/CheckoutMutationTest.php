@@ -165,6 +165,7 @@ class CheckoutMutationTest extends \Codeception\TestCase\WPTestCase {
                             transactionId
                             dateCompleted
                             datePaid
+							createdVia
                             cartHash
                             shippingAddressMapUrl
                             hasBillingAddress
